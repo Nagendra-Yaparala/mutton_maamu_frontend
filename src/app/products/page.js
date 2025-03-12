@@ -77,7 +77,7 @@ export default function Products() {
                 {/* ✅ Add to Cart Button */}
                 <button 
                   onClick={() => handleAddToCart(product)} 
-                  className="mt-4 flex items-center justify-center bg-red-500 text-white px-5 py-2 rounded-lg shadow-md hover:bg-red-600 transition duration-300 w-full disabled:opacity-50"
+                  className="mt-4 flex items-center justify-center bg-red-500 text-white px-5 py-2 rounded-lg shadow-md hover:bg-red-600 transition duration-300 w-full disabled:opacity-50 cursor-pointer"
                   disabled={loading}
                 >
                   <ShoppingCart size={18} className="mr-2" />

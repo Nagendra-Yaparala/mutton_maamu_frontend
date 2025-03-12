@@ -12,7 +12,7 @@ export default function Contact() {
         <p className="text-lg text-gray-700">📞 Phone: +91 8331064219</p>
         <p className="text-lg text-gray-700">📧 Email: contact@muttonmaamu.com</p>
         <div className="mt-6">
-          <button className="bg-red-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-red-600 transition">
+          <button className="bg-red-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-red-600 transition cursor-pointer">
             Call Now
           </button>
         </div>

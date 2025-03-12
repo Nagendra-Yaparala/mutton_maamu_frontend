@@ -91,7 +91,7 @@ export default function Cart() {
                   </div>
                   <button
                     onClick={() => handleDeleteItem(item._id)}
-                    className="text-red-500 hover:text-red-700 transition"
+                    className="text-red-500 hover:text-red-700 transition cursor-pointer"
                     disabled={loading} // ✅ Prevent multiple clicks
                   >
                     <Trash2 size={20} />
@@ -107,7 +107,7 @@ export default function Cart() {
             </div>
 
             {/* Checkout Button */}
-            <button className="w-full mt-6 bg-gradient-to-r from-red-500 to-amber-500 text-white py-3 rounded-lg shadow-lg hover:scale-105 transition">
+            <button className="w-full mt-6 bg-gradient-to-r from-red-500 to-amber-500 text-white py-3 rounded-lg shadow-lg hover:scale-105 transition cursor-pointer">
               Proceed to Checkout
             </button>
           </div>
